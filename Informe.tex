@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage[numbers,super,sort&compress,merge,mcite]{natbib}
+\usepackage[version=4]{mhchem} 
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{array,rotating,colortbl,longtable,tabulary,booktabs}
+\usepackage{tocbibind}
+\usepackage{wrapfig,subfigure}
+\usepackage{tikz,pgfplots,pgfkeys}
+\usepackage[bookmarks=true, hypertexnames=false, final, implicit, backref=false, linktocpage=false, colorlinks=true, allcolors=black, pdfpagelabels, plainpages=false, pdftex]{hyperref}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{er,shapes,arrows.meta,decorations.pathmorphing,backgrounds,positioning,fit,trees,calc,through,plotmarks}
+\usetikzlibrary{calc} \tikzset{>=latex}
+
+% Configuración de la página
+\geometry{left=4cm, right=3cm, top=3cm, bottom=3cm}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[c]{\thepage}
+
+% Configuración del interlineado
+\onehalfspacing
+
+\begin{document}
+% Portada
+\begin{titlepage}
+  \begin{center}
+    \includegraphics[width=2cm]{Img/Escudo-UCSM.png}\hfill
+    \includegraphics[width=2cm]{Img/ciim.png}\par
+    \vspace{1cm}
+    \textbf{Universidad Católica de Santa María}\\
+    Facultad de Ciencias Farmacéuticas, Bioquímicas y Biotecnológicas\\
+    Escuela Profesional de Ingeniería Biotecnológica\par
+    \vfill
+    \textbf{Informe de Prácticas Pre-Profesionales}\\
+    Nombre del Lugar de Prácticas\par
+    \vfill
+    Apellidos y Nombre del Practicante\\
+    Arequipa, 2023
+  \end{center}
+\end{titlepage}
+
+\tableofcontents
+
+\newpage
+
+\section{Presentación}
+Resumen del informe, reseña breve de la Empresa y/o Institución, periodo de prácticas y objetivo general.
+
+\section{Aspectos Generales}
+Institución y área donde realizó las prácticas:
+\begin{itemize}
+  \item Nombre: [Nombre de la Institución]
+  \item Ubicación geográfica: [Ubicación]
+  \item Organigrama: [Incluir organigrama aquí]
+  \item Funciones del área(s) donde realizó las prácticas: [Descripción de funciones]
+\end{itemize}
+
+\section{Actividades Realizadas}
+\subsection{Actividad 1}
+\subsubsection{Objetivos}
+\subsubsection{Justificación}
+\subsubsection{Metodología}
+\subsubsection{Resultados y Discusión}
+\subsubsection{Conclusiones y Recomendaciones}
+
+% Repite este formato para cada actividad
+
+\section{Cronograma de Actividades}
+Realice un cronograma por semana de las actividades realizadas.
+
+\end{document}
